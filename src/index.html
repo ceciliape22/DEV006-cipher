@@ -21,18 +21,18 @@
 
   <section class="cipher_body">
     <div id="cipher" class="main1">
-      <h2>CIFRAR MENSAJE</h2>
+     <h2>CIFRAR MENSAJE</h2>
       <form  id="cipher_content" autocomplete="off">
         <input type="text" id="original_input1" placeholder="Ingrese el texto" name="text" spellcheck="false">
-      </form>
-      
-      <div id = "btn_cipher" class="btn_cipher">CIFRAR</div>
+      </form>  
+      <div id= "btn_cipher" class="btn_cipher">CIFRAR</div>
       <input type="text" id="result1">
       <div class="range1">
         <input type="range" id="range1" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
          <output>10</output> 
       </div>
-      <div id="return1" class="return1">VOLVER</div>
+      <div id="return1" class="return1">VOLVER</div> 
+    </div> 
   </section>
 
   <section class="decipher_body">
@@ -41,14 +41,15 @@
       <form  id="decipher_content" autocomplete="off">
         <input type="text" id="original_input2" placeholder="Ingrese el texto" name="text" spellcheck="false">
       </form>
-      <div id = "btn_decipher" class="btn_decipher">DESCIFRAR</div>
+      <div id= "btn_decipher" class="btn_decipher">DESCIFRAR</div>
       <input type="text" id="result2">
       <div class="range2">
         <input type="range" id="range2" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value" >
         <output>10</output>
+      </div>
+      <div id="return2" class="return2">VOLVER</div>
     </div>
-    <div id="return2" class="return2">VOLVER</div>
   </section>
-    <script src="index.js"></script>
+    <script src="index.js" type="module"></script>
   </body>
 </html>

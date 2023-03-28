@@ -12,13 +12,13 @@
     padding-left: 500px;
     padding-top: 100px;
     margin: 0;
-    background-image: url(/DEV006-cipher/img/3545514_530778-PJJ9IW-741.jpg);
+    background-image: url(./img/fondolila.jpg);
     background-size: 2400px 2500px;
     
 }
 
 .main_body {
-    background-image: url(/DEV006-cipher/img/fondo-gatitos.jpg);
+    background-image: url(./img/fondogatitos.jpg);
     background-size: cover;
     contain: content;
     background-repeat: no-repeat;
