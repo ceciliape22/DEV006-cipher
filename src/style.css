@@ -60,6 +60,7 @@ top: 10%;
 left: 22%;
 align-items: center;
 font-family:  'Lilita One', cursive;
+cursor: pointer;
 
 }
 .select_cipher:hover , .select_decipher:hover {
