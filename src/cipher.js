@@ -1,6 +1,5 @@
 const cipher = {
   encode: function(offset_value1,cipherMessage){
-    
     let result = '';
     for (let index = 0; index < cipherMessage.length; index++) {
       
