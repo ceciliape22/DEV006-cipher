@@ -1,63 +1,28 @@
-# Cifrado César
-
-## Índice
-
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Consideraciones generales](#3-consideraciones-generales)
-* [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
-* [5. Hito Opcional: Agrega soporte para minúsculas y otros caracteres](#5-hito-opcional-agrega-soporte-para-minúsculas-y-otros-caracteres)
-* [6. Consideraciones técnicas](#6-consideraciones-técnicas)
-* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Para considerar Project Feedback](#9-para-considerar-project-feedback)
+# Secret Chat for Lovers App
 
 ***
 
-## 1. Preámbulo
+## 1. Descripción del producto
 
-Cifrar significa ocultar el contenido de un mensaje a simple vista, de manera
-que sólo las partes autorizadas pueden descifrar un texto cifrado.
-El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
-es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
-César lo usaba para enviar órdenes secretas a sus generales en los campos de
-batalla.
+Secret Chat for Lovers app es una herramienta de mensajería pensada para parejas que quieran cifrar y descifrar mensajes y así compartir información secreta ;)
 
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
+En esta aplicaci+on se utliza el cifrado César, en dónde la letra es sustituida por otra letra del alfabeto que es definida por un número de desplazamiento.
+
+Este cifrado es una de las técnicas más simples para cifrar un mensaje. Es
 un tipo de cifrado por sustitución, es decir que cada letra del texto original
 es reemplazada por otra que se encuentra un número fijo de posiciones
 (desplazamiento) más adelante en el mismo alfabeto.
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+![caeser-cipher]([https://i0.wp.com/matematicascercanas.com/wp-content/uploads/2015/07/prefecto-romano.jpg?w=503&ssl=1])
 
-Por ejemplo, si usamos un desplazamiento (_offset_) de 3 posiciones:
+El diseño de esta aplicación tiene una temática romántica y llamativa en tonos predominantemente lila.
+La aplicación contiene tres pantallas:
 
-* La letra A se cifra como D.
-* La palabra CASA se cifra como FDVD.
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+La página principal dónde viene el nombre de la aplicación, una breve descripción y las dos opciones de Cifrar y Descifrar.
+Una página para el cifrado de los mensajes.
+Una página para el descifrado de los mensajes.
 
-En la actualidad, todos los cifrados de sustitución simple se descifran con
-mucha facilidad y, aunque en la práctica no ofrecen mucha seguridad en la
-comunicación por sí mismos; el cifrado César sí puede formar parte de sistemas
-más complejos de codificación, como el cifrado Vigenère, e incluso tiene
-aplicación en el sistema ROT13.
 
-## 2. Resumen del proyecto
-
-En este proyecto crearás una aplicación web que servirá para que tu usuaria
-pueda cifrar y descifrar un texto en el navegador indicando un desplazamiento
-específico de caracteres (_offset_). Lo harás utilizando HTML, CSS y JavaScript.
-
-La temática es libre. Piensa en qué situaciones se necesitaría cifrar un mensaje.
-Decide cómo debe ser esa experiencia de uso (qué pantallas, explicaciones, mensajes,
-colores, etc.) Algunas ideas de ejemplo:  
-
-* Crear claves seguras para el email.
-* Encriptar/cifrar una tarjeta de crédito.
-* Herramienta de mensajería interna de una organización de derechos humanos en
-  una zona de conflicto.
-* Mensajería secreta para parejas.
 
 Como continuación del proyecto de preadmisión, volverás a trabajar sobre
 fundamentos de JavaScript, incluyendo conceptos como variables, condicionales,
