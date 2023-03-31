@@ -2,7 +2,7 @@
 
 ***
 
-## 1. Descripción del producto
+## Descripción del producto
 
 Secret Chat for Lovers app es una herramienta de mensajería pensada para parejas que quieran cifrar y descifrar mensajes y así compartir información secreta ;)
 
@@ -19,18 +19,18 @@ El diseño de esta aplicación tiene una temática romántica y llamativa en ton
 La aplicación contiene tres pantallas:
 
 La página principal dónde viene el nombre de la aplicación, una breve descripción y las dos opciones de Cifrar y Descifrar.
-Una página para el cifrado de los mensajes.
-Una página para el descifrado de los mensajes.
+- Una página para el cifrado de los mensajes.
+- Una página para el descifrado de los mensajes.
 
 ![Captura de pantalla 2023-03-31 090805](https://user-images.githubusercontent.com/118021663/229146208-eca4f799-972f-40bf-9739-940b4c3ac1dc.png)
 
 
 ## Objetivos
 
-Facilitar el envío de información secreta.
-Resguardar la privacidad de los usuarios.
+- Facilitar el envío de información secreta.
+- Resguardar la privacidad de los usuarios.
 
 ## Funcionalidades
-Desplazamiento de hasta 20 posiciones.
-No incluye cifrado para números y caracteres especiales, aunque sí los permite.
+- Desplazamiento de hasta 20 posiciones.
+- No incluye cifrado para números y caracteres especiales, aunque sí los permite.
 
