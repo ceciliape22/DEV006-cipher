@@ -23,6 +23,9 @@ La página principal dónde viene el nombre de la aplicación, una breve descrip
 - Una página para el descifrado de los mensajes.
 
 ![Captura de pantalla 2023-03-31 090805](https://user-images.githubusercontent.com/118021663/229146208-eca4f799-972f-40bf-9739-940b4c3ac1dc.png)
+![Captura de pantalla 2023-04-02 234431](https://user-images.githubusercontent.com/118021663/229414075-32aed78a-cf59-47fa-bcc0-e14a43d15f1f.png)
+![Captura de pantalla 2023-04-02 234558](https://user-images.githubusercontent.com/118021663/229414098-1b2577a5-44ef-4e30-bd92-44c97a5dd628.png)
+
 
 
 ## Objetivos
